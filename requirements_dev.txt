@@ -8,4 +8,4 @@ coverage==5.5
 Sphinx==4.0.2
 twine==3.4.1
 psutil==5.8.0
-sphinx-autoapi
+sphinx-autoapi==1.8.1

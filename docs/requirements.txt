@@ -1,2 +1,2 @@
 psutil==5.8.0
-sphinx-autoapi
+sphinx-autoapi==1.8.1
