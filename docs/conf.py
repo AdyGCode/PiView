@@ -38,7 +38,7 @@ extensions.append('autoapi.extension')
 
 autoapi_type = 'python'
 # This should be the 'cloned/uploaded' location for the code
-autoapi_dirs = ['/piview']
+autoapi_dirs = ['../piview']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
