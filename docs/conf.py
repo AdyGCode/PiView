@@ -20,6 +20,7 @@
 import os
 import sys
 
+sys.path.insert(0, os.path.abspath('../piview'))
 sys.path.insert(0, os.path.abspath('..'))
 
 import piview
@@ -32,9 +33,12 @@ import piview
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode']
-extensions.append("sphinx_rtd_theme")
-extensions.append('autoapi.extension')
+extensions = ['sphinx.ext.autodoc',
+              'sphinx.ext.viewcode',
+              # 'sphinx.ext.napoleon',
+              'sphinx.ext.coverage',
+              "sphinx_rtd_theme",
+              'autoapi.extension']
 
 autoapi_type = 'python'
 # This should be the 'cloned/uploaded' location for the code
