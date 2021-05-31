@@ -1,25 +1,12 @@
-======
-PiView
-======
+# PiView
 
+![https://pypi.python.org/pypi/piview](https://img.shields.io/pypi/v/piview.svg)
+![https://travis-ci.com/AdyGCode/piview](https://img.shields.io/travis/AdyGCode/piview.svg)
+![https://piview.readthedocs.io/en/latest/?version=latest](https://readthedocs.org/projects/piview/badge/?version=latest)
 
-.. image:: https://img.shields.io/pypi/v/piview.svg
-        :target: https://pypi.python.org/pypi/piview
+###*A Raspberry Pi System Information Package*
 
-.. image:: https://img.shields.io/travis/AdyGCode/piview.svg
-        :target: https://travis-ci.com/AdyGCode/piview
-
-.. image:: https://readthedocs.org/projects/piview/badge/?version=latest
-        :target: https://piview.readthedocs.io/en/latest/?version=latest
-        :alt: Documentation Status
-
-
-
-**A Raspberry Pi System Information Package**
-
-.. image:: ./docs/PiView.svg
-        :target: https://pypi.python.org/pypi/piview
-        :alt: PiView Icon
+![https://pypi.python.org/pypi/piview](https://raw.githubusercontent.com/AdyGCode/piview/master/PiView.svg)
 
 PiView provides the details of the Raspberry Pi currently being interrogated. System information includes, but is not limited to:
 
@@ -35,20 +22,18 @@ Also includes a small utility library with:
 - conversion of bytes into Kilobytes, Megabytes, Gigabytes and up
 - create list with a quartet of integer numbers representing the IPv4 Address
 
-General Information
--------------------
+## General Information
+
 * Free software: Open Software License ("OSL") v. 3.0
 * Documentation: https://piview.readthedocs.io.
 
 
-Features
---------
+## Features
 
 * TODO
 
 
-Requirements
-------------
+## Requirements
 
 This project requires the following package(s):
 
@@ -57,8 +42,7 @@ This project requires the following package(s):
 Remaining packages are Python 'built-ins'.
 
 
-Credits
--------
+## Credits
 
 A very large thank you to Matt Hawkins upon whose code this package is based: https://www.raspberrypi-spy.co.uk/
 
@@ -72,8 +56,7 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
 
 
-Copyright
----------
+## Copyright
 
 Copyright Adrian Gould, 2021-. Licensed under
 the Open Software License version 3.0
