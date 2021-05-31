@@ -19,6 +19,7 @@
 #
 import os
 import sys
+
 sys.path.insert(0, os.path.abspath('..'))
 
 import piview
@@ -37,7 +38,7 @@ extensions.append('autoapi.extension')
 
 autoapi_type = 'python'
 # This should be the 'cloned/uploaded' location for the code
-autoapi_dirs = ['/home/docs/checkouts/readthedocs.org/user_builds/piview']
+# autoapi_dirs = ['/home/docs/checkouts/readthedocs.org/user_builds/piview']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -83,7 +84,6 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
 
-
 # -- Options for HTML output -------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -106,12 +106,10 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-
 # -- Options for HTMLHelp output ---------------------------------------
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'piviewdoc'
-
 
 # -- Options for LaTeX output ------------------------------------------
 
@@ -142,7 +140,6 @@ latex_documents = [
      'Adrian Gould', 'manual'),
 ]
 
-
 # -- Options for manual page output ------------------------------------
 
 # One entry per manual page. List of tuples
@@ -152,7 +149,6 @@ man_pages = [
      'PiView Documentation',
      [author], 1)
 ]
-
 
 # -- Options for Texinfo output ----------------------------------------
 
@@ -167,6 +163,3 @@ texinfo_documents = [
      'One line description of project.',
      'Miscellaneous'),
 ]
-
-
-
