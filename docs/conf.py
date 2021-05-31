@@ -21,7 +21,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.abspath('../piview'))
-sys.path.insert(0, os.path.abspath('..'))
+# sys.path.insert(0, os.path.abspath('..'))
 
 import piview
 
@@ -36,7 +36,7 @@ import piview
 extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.viewcode',
               # 'sphinx.ext.napoleon',
-              'sphinx.ext.coverage',
+              # 'sphinx.ext.coverage',
               "sphinx_rtd_theme",
               'autoapi.extension']
 
@@ -120,7 +120,7 @@ htmlhelp_basename = 'piviewdoc'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+    # 'papersize': 'a4paper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
