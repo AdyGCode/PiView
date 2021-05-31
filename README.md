@@ -4,7 +4,7 @@
 ![https://travis-ci.com/AdyGCode/piview](https://img.shields.io/travis/AdyGCode/piview.svg)
 ![https://piview.readthedocs.io/en/latest/?version=latest](https://readthedocs.org/projects/piview/badge/?version=latest)
 
-###*A Raspberry Pi System Information Package*
+### *A Raspberry Pi System Information Package*
 
 ![https://pypi.python.org/pypi/piview](https://raw.githubusercontent.com/AdyGCode/piview/master/PiView.svg)
 

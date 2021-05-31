@@ -1,13 +1,10 @@
-=======
-Credits
-=======
+# Credits
 
-Development Lead
-----------------
+
+## Development Lead
 
 * Adrian Gould <adrian.gould@nmtafe.wa.edu.au>
 
-Contributors
-------------
+## Contributors
 
 * Sander Huijsen <...>
