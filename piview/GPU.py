@@ -18,7 +18,7 @@ class GPU:
         Requests the GPU temperature from the thermal zone details
 
         :rtype: string
-        :return: GPU temperature to 2DP
+        :return: GPU temperature in degrees Celsius to 2DP
         """
         try:
             temp = subprocess.check_output(

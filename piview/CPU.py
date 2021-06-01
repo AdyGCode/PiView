@@ -66,16 +66,28 @@ class CPU:
         Requests the CPU temperature from the vcgencmd returning the
         result to the caller as a floating point value to 2DP
 
-        If no value can be determined, uses -273.16 (Absolute Zero) as the
+        If no value can be determined, uses -999.99 as the
         returned "error" value.
 
         :rtype: float
-        :return: The CPU temperature in Celcius
+        :return: The CPU temperature in degrees Celsius
         """
         try:
             temp = subprocess.check_output(['vcgencmd', 'measure_temp'])
             temp = float(temp[5:-3])
         except:
-            temp = -273.16  # use absolute zero for no reading
+            temp = -999.99
         temp = round(temp, 2)
         return temp
+
+
+    @staticmethod
+    def temperature_k():
+        """Provide temperature of the CPU in degrees Kelvin
+
+        :return: CPU Temperature in Kelvin
+        """
+        temp_k =  CPU.temperature()
+        if temp_k == -999.99:
+            return temp_k
+        return temp_k - 273.16
