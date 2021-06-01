@@ -2,7 +2,7 @@
 
 """The setup script."""
 
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 with open('README.md') as readme_file:
     readme = readme_file.read()
@@ -12,7 +12,7 @@ with open('HISTORY.md') as history_file:
 
 requirements = ['psutils']
 
-test_requirements = [ ]
+test_requirements = []
 
 setup(
     author="Adrian Gould",

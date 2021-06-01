@@ -15,6 +15,7 @@ This will contain some 'breaking' changes.
 * Minor edits to code.
 * CPU speed returns random value if parameter `random=True` used in call, or -1 when parameter `random=False` (or omitted)
 * Temperatures return -273.16ºC when no reading given (absolute zero)
+* Keeping documentation edits within this version until next minor update to code
 
 ## 2.0.2 (2021-05-28)
 

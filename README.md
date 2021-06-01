@@ -6,21 +6,10 @@
 
 ### *A Raspberry Pi System Information Package*
 
-![https://pypi.python.org/pypi/piview](https://raw.githubusercontent.com/AdyGCode/piview/master/PiView.svg)
+<img src="https://raw.githubusercontent.com/AdyGCode/piview/master/PiView.svg" width="96"
+height="96" />
 
-PiView provides the details of the Raspberry Pi currently being interrogated. System information includes, but is not limited to:
-
-- **CPU**: max load across cores, temperature, clock speed
-- **GPU**: temperature
-- **HARDWARE**: bluetooth, i2c, spi, camera statuses
-- **HOST**: boot time, model, name, revision, serial number, uptime
-- **NETWORK**: host name, interface names, ip addresses, mac addresses
-- **STORAGE**: total disk capacity, free disk capacity, total RAM and free RAM
-
-Also includes a small utility library with:
-
-- conversion of bytes into Kilobytes, Megabytes, Gigabytes and up
-- create list with a quartet of integer numbers representing the IPv4 Address
+PiView provides the details of the Raspberry Pi currently being interrogated.
 
 ## General Information
 
@@ -30,7 +19,21 @@ Also includes a small utility library with:
 
 ## Features
 
-* TODO
+PiView provides system information including, but not limited to:
+
+|  Group   | Information                                                           |
+|:--------:|-----------------------------------------------------------------------|
+| CPU      | max load across cores, temperature, clock speed                       |
+| GPU      | temperature                                                           |
+| HARDWARE | bluetooth, i2c, spi, camera statuses                                  |
+| HOST     | boot time, model, name, revision, serial number, uptime               |
+| NETWORK  | host name, interface names, ip addresses, mac addresses               |
+| STORAGE  | total disk capacity, free disk capacity, total RAM and free RAM       |
+
+Also includes a small utility library with:
+
+- conversion of bytes into Kilobytes, Megabytes, Gigabytes and up
+- create list with a quartet of integer numbers representing the IPv4 Address
 
 
 ## Requirements
@@ -50,10 +53,10 @@ The original code may be found at https://github.com/tdamdouni/Raspberry-Pi-DIY-
 
 Thank you to Sander Huijsen for his contributions and guidance in all things Python.
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+This package was created with Cookiecutter and the `audreyr/cookiecutter-pypackage` project template.
 
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+[Cookiecutter: https://github.com/audreyr/cookiecutter](https://github.com/audreyr/cookiecutter)
+[Cookiecutter PyPackage: https://github.com/audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)
 
 
 ## Copyright
