@@ -10,7 +10,7 @@ with open('README.md') as readme_file:
 with open('HISTORY.md') as history_file:
     history = history_file.read()
 
-requirements = ['psutils']
+requirements = ['psutil']
 
 test_requirements = []
 
@@ -40,6 +40,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/AdyGCode/piview',
-    version='2.0.3.2',
+    version='2.0.4',
     zip_safe=False,
 )
